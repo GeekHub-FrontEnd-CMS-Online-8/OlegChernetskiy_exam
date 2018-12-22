@@ -1,15 +1,122 @@
-.test-class {
-  color: blueviolet;
-  transition: background-color 1s ease-in;
-  border-radius: 10px;
-  padding: 10px;
+.header {
+  background: #28303e url(../img/cover.png) 50% 50% no-repeat;
+  background-size: cover;
+  min-width: 100%; }
+
+.check {
+  display: none; }
+
+.main-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px; }
+
+.main-menu a {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0 33px;
+  text-decoration: none; }
+
+h1 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 247px; }
+
+h1 + p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  padding: 13px 0 26px; }
+
+.main_button a {
+  width: 166px;
+  height: 49px;
+  background-color: #16a085;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 20px 31px;
+  text-decoration: none; }
+
+.header__bottom_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 222px 0 25px; }
+
+.header__bottom_links a {
+  padding: 0 8px;
+  color: #ffffff; }
+
+.center {
   text-align: center; }
-  .test-class:hover {
-    background-color: black; }
 
-p {
-  color: red;
-  font-size: 25px; }
+.sec_1 {
+  background-color: #f5f6f7;
+  padding: 113px 128px; }
 
-div p {
-  font-size: 20px; }
+.sec1__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.sec1_title {
+  color: #16a085;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 350px; }
+
+.sec1_text {
+  color: #373737;
+  font-size: 12px;
+  font-weight: 400;
+  width: 428px;
+  line-height: 20px; }
+
+.sec1_btn {
+  margin-top: 47px; }
+
+.sec_3 {
+  background-color: #f5f6f7;
+  padding: 120px 0; }
+
+.sec3_box {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1022px;
+  margin: 0 auto; }
+
+.sec3__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.sec3__item img {
+  width: 55px;
+  height: 59px; }
+
+.sec_5 {
+  background-color: #f5f6f7;
+  padding: 91px 0 100px; }
+
+.sec5_title {
+  color: #373737;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.sec5_text {
+  color: #373737;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: uppercase; }
